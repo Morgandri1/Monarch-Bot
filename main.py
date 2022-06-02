@@ -3,7 +3,7 @@ from ext import *
 
 token = open("token.txt").readline()
 bot = interactions.Client(token=token, intents=interactions.Intents.DEFAULT | interactions.Intents.GUILD_MESSAGE_CONTENT)
-version = 1
+version = 2
 
 print(f"""
          __  __                            _     
